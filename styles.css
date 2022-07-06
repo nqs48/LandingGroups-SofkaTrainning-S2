@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header_nav {
+  background-color: #98D9C2;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.header_nav_li {
+
+  padding: 1rem;
+  margin-y: 5px; 
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.header_nav_li:hover {
+  background-color: #DC851F;
+}
